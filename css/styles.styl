@@ -1,0 +1,296 @@
+basecolor=white
+alto-header=90px
+titulo-tamano=20px
+background-header=white
+nav-width=44px 
+nav-height=nav-width * 1.2
+nav-icon-size=20px
+nav-color=white
+header-width=100%
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?1l4wfh');
+  src:url('../fonts/icomoon.eot?#iefix1l4wfh') format('embedded-opentype'),
+    url('../fonts/icomoon.woff?1l4wfh') format('woff'),
+    url('../fonts/icomoon.ttf?1l4wfh') format('truetype'),
+    url('../fonts/icomoon.svg?1l4wfh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+html
+	font-size 16px	
+	background basecolor
+	margin 0
+	padding 0
+
+/*Header*/	
+.header
+	width header-width
+	padding 0	
+	background white
+	margin 0
+	h1
+		display none
+		
+.image-container-logo
+	padding 0
+	margin 5px 0
+	text-align center
+
+		
+.image-logo
+	max-width:100px
+	margin 0
+	padding 0
+	
+/*Menu Header*/
+.main-menu
+	height 40px
+	margin 0px
+	padding 0px	
+	position relative
+  
+.container-icon-menu
+	background #489cdf
+	height 40px
+	margin 0
+	padding 5px
+span
+	margin 0
+	padding 0
+.icon-menu:before 
+  content: "\e602"
+  color white
+  font-size 28px
+  cursor pointer
+ .icon-menu:hover:before 
+ 	font-size 31px
+ 	color purple
+  
+.icon-twitter:before
+	content "\ea91"
+	color white
+	font-size 20px
+	float right
+	padding 5px
+.icon-twitter:hover:before
+	font-size 24px
+	color purple
+	
+.icon-facebook:before
+	content: "\ea8c"
+	color white
+	font-size 20px
+	cursor pointer
+	float right
+	padding 5px
+.icon-facebook:hover:before
+	color purple
+	
+.icon-youtube:before
+	content: "\ea99"
+	color white
+	font-size 24px
+	cursor pointer
+	float right
+	padding  5px 10px 0 0 
+	
+	
+.icon-youtube:hover:before
+	color purple
+
+
+.main-menu__list 
+	position absolute
+	background #FAFAFA
+	top 40px
+	left 10%	
+	/*list-style none*/
+	font-size: nav-icon-size
+	width 80%
+	padding 0
+	margin 0
+	display none
+	z-index 99
+
+	
+.main-menu__list li 	
+	list-style none
+	padding 10px
+	text-align left
+	color #489cdf
+	border-bottom 1px #F2F2F2 solid	
+	margin-top 0
+	
+.main-menu__list li:nth-child(1) 
+	border-top 1px #F2F2F2 solid
+
+.icon-home:before
+	content: "\e902"
+	color #489cdf
+	font-size 15px
+	cursor pointer
+	padding 5px
+	transition: 0.3s ease
+.icon-home:hover:before
+	font-size 20px
+
+.icon-nosotros:before
+	content: "\e972"
+	color #489cdf
+	font-size 15px
+	cursor pointer
+	padding 5px
+	transition: 0.3s ease		
+.icon-nosotros:hover:before
+    font-size 20px
+	
+
+.icon-quehacemos:before
+	content: "\e996"
+	color #489cdf
+	font-size 16px
+	cursor pointer
+	padding 5px
+	transition: 0.3s ease
+.icon-quehacemos:hover:before
+	font-size 20px
+	
+.icon-comoayudar:before
+	content: "\e9da"
+	color #489cdf
+	font-size 15px
+	cursor pointer
+	padding 5px	
+	transition: 0.3s ease
+.icon-comoayudar:hover:before
+	font-size 20px
+
+.icon-blog:before
+	content: "\e922"
+	color #489cdf
+	font-size 15px
+	cursor pointer
+	padding 5px
+	transition: 0.3s ease	
+.icon-blog:hover:before
+	font-size 20px
+
+.icon-contacto:before
+	content: "\ea86"
+	color #489cdf
+	font-size 16px
+	cursor pointer
+	padding 5px	
+	transition: 0.3s ease
+.icon-contacto:hover:before
+	font-size 21px
+.main-menu__list li a 
+	text-decoration none
+	padding 10px auto
+	
+.main-menu__list li:hover{
+	background #ffc024
+	color white
+	
+}
+
+/*SLIDER*/
+
+		
+.page-slider  /*section*/
+	margin-top 0px
+	width 100%
+	background #58FAD0
+	padding 10px 5px
+	/*background url(images/fondoprueba.jpg) no-repeat*/
+	
+.container-slider /*ul*/
+	width 90%
+	margin 5%
+	padding 0
+.container-slider-item /*li*/
+	width 100%
+	margin 0
+	list-style none
+	
+.image-slider-container
+	border solid 5px white
+.image-slider-container img/*figure*/
+	width 100%
+
+
+	
+.image-slider-container .image-slider img
+	display block
+	width 100%
+	margin 0
+	padding 0
+	text-align center
+		
+.button
+	display block
+	padding 10px
+	background orange
+	border-radius 5px
+	color white
+	margin 20px
+	font-size 20px
+	text-decoration none
+	box-shadow 0px 0px 5px gray
+	text-shadow 0px 0px 5px gray
+/*
+
+.image-slider-container /*ul
+	width 90%
+	margin 5%
+	background green
+	padding 5px
+    list-style none
+.image-slider-container image-slider  /*li
+	list-style none
+	padding 5px
+	width 90%
+	margin 5%
+	background blue*/
+/*
+.content-slider
+	top 300px
+	z-index 199
+	background green
+
+.container-slider ul
+	top -15px
+	padding 0
+	background green
+	
+.container-slider ul li
+    background green
+	list-style none
+.image-slider img
+	width 60%
+			
+*/	
+	
+
+
+    	
